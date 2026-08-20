@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wolf Gym Registraion</title>
+  </head>
+  <body>
+    <form action="">
+    <h1>
+      <center><u>Welcome, to the Wolf Gym&trade;</u></center>
+    </h1>
+    <center>"TRAIN LIKE A WOLF, LEAD LIKE A CHAMPION"</center>
+    <h2><u>Fill the below details:</u></h2>
+    <label for="Name">Name:</label>
+    <input
+      type="text"
+      id="Name"
+      required
+      placeholder="Enter your name"/>
+    <br/><br/>
+    <label for="dateofbirth">Date Of Birth:</label>
+    <input type="date" id="dateofbirth"/><br/><br/>
+    <label for="gender">Gender:</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"/>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"/>
+    <label for="others">Others</label>
+    <input type="radio" id="others" name="gender"/><br/><br/>
+    <label for="pnumber">Phone Number:</label>
+    <input
+      type="tel"
+      id="pnumber"
+      maxlength="10"
+      minlength="10"
+      pattern="[0-9]{10}"
+      required/>
+    <br/><br/>
+    <label for="email">Enter Your email:</label>
+    <input type="email" id="email"  required/><br /><br />
+    <label for="idnumber">Enter I'd Number:</label>
+    <input type="tel" id="idnumber" />
+    <input type="file" /><br /><br />
+    <label for="address">Address:</label>
+    <textarea name="textbox" id="address"></textarea>
+    <hr />
+    <hr />
+    <h3><u>Emergency Details:</u></h3>
+    <label for="Emergency">Emergency Contact Name:</label>
+    <input type="text" id="Emergency" required /><br /><br /><label
+      for="pnumber"
+      >Phone Number:</label
+    >
+    <input type="tel" id="pnumber" maxlength="10" minlength="10" pattern="[0-9]{10}"/>
+    <label for="Relationship">Relationship:</label>
+    <select name="" id="Relationship">
+      <option value="Husband">Husband</option>
+      <option value="Wife">Wife</option>
+      <option value="Father">Father</option>
+      <option value="Mother">Mother</option>
+      <option value="Son">Son</option>
+      <option value="Daughter">Daughter</option>
+    </select>
+    <hr/>
+    <hr/>
+    <h3><u>Fitness Information:</u></h3>
+    <h4>Membership Type:</h4>
+    <input type="checkbox" id="Monthly"/>
+    <label for="Monthly">Monthly</label>
+    <input type="checkbox" id="Quarterly"/>
+    <label for="Quarterly">Quarterly</label>
+    <input type="checkbox" id="Half-yearly"/>
+    <label for="Half-yearly">Half-yearly</label>
+    <input type="checkbox" id="yearly"/>
+    <label for="yearly">Yearly</label>
+    <h4>Fitness Goal:</h4>
+    <input type="checkbox" id="weightloss"/>
+    <label for="weightloss">Weight Loss</label>
+    <input type="checkbox" id="musclegain"/>
+    <label for="musclegain">Muscle Gain</label>
+    <input type="checkbox" id="bodybuilding"/>
+    <label for="bodybuilding">Bodybuilding</label>
+    <input type="checkbox" id="generalfitness"/>
+    <label for="generalfitness">General Fitness</label>
+    <input type="checkbox" id="strengthtraining"/>
+    <label for="strengthtraining">Strength Training</label>
+    <hr/>
+    <hr/>
+    <h3><u>Health Information:</u></h3>
+    <label for="amcondition">Any Medical Condition:</label>
+    <textarea name="textbox" id="amcondition"></textarea><br/><br/>
+    <label for="medication">Any medication taking:</label>
+    <textarea name="textbox" id="medication"></textarea>
+    <hr/>
+    <hr/>
+    <h3><u>Terms&Condition:</u></h3>
+    <input type="checkbox" id="Condition" required/>
+    <label for="condition">
+      By becoming a member of <b>WOLF GYM</b>, you agree to follow all gym
+      rules, maintain discipline, and contribute to a safe and motivating
+      fitness environment.
+    </label>
+    <br/>
+    <p>
+      <center><input type="submit"></center>
+    </p>
+    </form>
+  </body>
+</html>

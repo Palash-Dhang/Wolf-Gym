@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+
+*{
+    margin: px;
+    padding: px;
+}
+body{
+    background-color:#BDB2FF;
+    background: linear-gradient(to top, #ffd6e0, #BDB2FF);
+
+} 
+b{
+    text-decoration: underline;
+}
+hr{
+    height: 6px;
+    background-color: black;
+    
+}
+h1{
+    margin: 20PX;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px #3A86FF;
+    background-color:#ffd6e0;
+    font-family: "Elsie", serif;
+    font-weight: 900;
+    font-size: large;
+    font-style: normal; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 20px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+fieldset:hover{
+    box-shadow: 10px 10px 10px #3A86FF;
+
+}
+fieldset{
+    border: 2px solid black;
+    box-shadow: 6px 6px #190fa3;
+    background: linear-gradient(to right, #ffd6e0, #3A86FF);
+}
+.photo{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+
+
+}
+img{
+    float: right;
+    border-radius: 75%;
+
+}
+p{ 
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: italic;   
+}
+
+.address{
+    text-align:center ;
+}
+.copy{
+    background-color: #FFD6E0;
+    text-align: center;
+}
+button:hover{
+    background-color: #FFD6E0;
+    box-shadow: 0px 0px 20px  #3A86FF;
+}
+
+a:active{
+    color: black;
+}
+#move{
+    padding: 10px;
+    margin-left: 11rem;
+    border-radius: 5px;
+    border-color: hotpink;
+    color: grey;
+}
+#click{
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+span{
+    margin-left: -12px;
+}
+li{
+    list-style: none;
+}
